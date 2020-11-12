@@ -1,10 +1,6 @@
 require 'pry'
 def loop_message_five_times(string)
-  counter=0
-  binding.pry
-  While counter < 5 do
-    puts string[counter]
-    counter +=1
+  5.times {puts string}
   end
 end
 
