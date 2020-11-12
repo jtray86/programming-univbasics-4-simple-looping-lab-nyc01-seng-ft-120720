@@ -1,6 +1,5 @@
 require 'pry'
 def loop_message_five_times(array)
-  counter = 0 
   binding.pry
   While array[counter] do
     puts array[counter]
