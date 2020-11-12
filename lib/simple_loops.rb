@@ -15,6 +15,6 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  p array
+  print array
 
 end
