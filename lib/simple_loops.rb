@@ -2,7 +2,8 @@ require 'pry'
 def loop_message_five_times(string)
   counter=0
 
-  While string[counter] do
+  While string[counter] <5
+   5do
     puts string[counter]
     counter +=1
   end
